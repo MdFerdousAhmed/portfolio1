@@ -27,7 +27,7 @@ export default function Skills() {
   const toolsSkills = [
     { name: 'Git & GitHub', level: 92 },
     { name: 'Mongodb', level: 75 },
-    { name: 'Vite & Webpack', level: 85 },
+    { name: 'Vercel', level: 85 },
     { name: 'Figma (UI/UX)', level: 78 },
   ];
 

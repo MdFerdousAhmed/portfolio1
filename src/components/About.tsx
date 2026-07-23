@@ -19,20 +19,13 @@ export default function About() {
         {/* Left Column: Personal introduction & Hobbies */}
         <div className="about-text">
           <p className="about-p">
-            I am <span className="about-highlight">Md.Ferdous Ahmed</span>, a web application creator with a deep love for details. 
-            My programming journey began back in 2024 when I wrote my first lines of JavaScript to build a simple text-based 
-            game. The instant feedback loop of seeing logic translate into functional visual structures instantly captivated me.
+            I am <span className="about-highlight">Md.Ferdous Ahmed</span>, I'm a junior Full Stack Web Developer specializing in the MERN stack. I have experience building responsive and user-friendly web applications using HTML, CSS, JavaScript, React, Next.js, Node.js, Express.js, and MongoDB.
           </p>
           <p className="about-p">
-            Since then, I've dedicated myself to master the full-stack and modern architectural patterns. I enjoy solving 
-            complex layout challenges, optimizing core web vitals, and translating static layouts into smooth, interactive products. 
-            I believe that good software should not only work flawlessly under the hood but should also feel responsive, 
-            natural, and delightful to interact with.
+            I've built several full-stack projects, including a restaurant booking platform, a room booking system, and a hiring platform. Through these projects, I've worked on user authentication, REST APIs, role-based access control, database integration, and responsive UI development. I also use Git and GitHub for version control and have deployed applications on Vercel.
           </p>
           <p className="about-p">
-            Outside of programming, I enjoy a balanced lifestyle. Whether exploring natural landscapes through a camera lens, 
-            immersing myself in cooperative puzzle games, or training in competitive sports, these creative outlets keep my mind 
-            sharp and inspire fresh perspectives in my engineering work.
+            Recently, I've been improving my backend development skills by making Express applications compatible with Vercel serverless functions and solving deployment issues. I'm passionate about learning new technologies, writing clean code, and working in collaborative teams. I'm excited to contribute my skills while continuing to grow as a software engineer.
           </p>
 
           <h3 className="hobbies-title">Hobbies & Interests</h3>

@@ -5,9 +5,10 @@ import photo from '../assets/image.png';
 
 export default function Hero() {
   const designations = [
-    'Full Stack MERN Developer',
-    'Creative Problem Solver',
-    'UI/UX Designer'
+    'Full Stack Developer',
+    'Web Developer',
+    'Frontend Developer',
+    'Backend Developer'
   ];
 
   const [currentWordIdx, setCurrentWordIdx] = useState(0);
@@ -59,8 +60,7 @@ export default function Hero() {
         </div>
 
         <p className="hero-description">
-          I build high-performance, responsive web applications with modern interactive interfaces. 
-          Focused on writing clean, maintainable code and providing exceptional digital experiences.
+          I am a Junior Full Stack Web Developer with a strong focus on the MERN stack. I enjoy building modern, responsive, and user-friendly web applications that solve real-world problems.
         </p>
 
         <div className="hero-cta">
