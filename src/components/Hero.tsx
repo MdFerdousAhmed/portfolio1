@@ -51,7 +51,7 @@ export default function Hero() {
   return (
     <section id="home" className="hero-section">
       <div className="hero-content">
-        <span className="hero-welcome">Hello World, I'm</span>
+        <span className="hero-welcome">Hello, I'm</span>
         <h1 className="hero-name">Md.Ferdous Ahmed</h1>
         
         <div className="hero-designation">
