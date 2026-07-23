@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Definitions for gradients and shadows -->
+  <defs>
+    <!-- Background glow gradient -->
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Neon border gradient -->
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <!-- Laptop gradient -->
+    <linearGradient id="laptopGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <!-- Screen glow -->
+    <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Drop Shadow filter -->
+    <filter id="neonShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background radial glow -->
+  <circle cx="250" cy="250" r="220" fill="url(#glowGrad)"/>
+
+  <!-- Outer Neon Glowing Ring -->
+  <circle cx="250" cy="250" r="180" fill="none" stroke="url(#neonGrad)" stroke-width="4" filter="url(#neonShadow)" stroke-dasharray="10 5 20 5 30 10"/>
+
+  <!-- Stylized Programmer Silhouette -->
+  <!-- Head -->
+  <circle cx="250" cy="180" r="45" fill="#1e293b" stroke="#06b6d4" stroke-width="3"/>
+  <!-- Head Details (Glasses) -->
+  <path d="M 225 180 Q 235 170 245 180 M 255 180 Q 265 170 275 180" fill="none" stroke="#ec4899" stroke-width="3" stroke-linecap="round"/>
+  <line x1="245" y1="180" x2="255" y2="180" stroke="#ec4899" stroke-width="2"/>
+  
+  <!-- Headphones -->
+  <path d="M 195 180 A 55 55 0 0 1 305 180" fill="none" stroke="#8b5cf6" stroke-width="6" stroke-linecap="round" filter="url(#neonShadow)"/>
+  <rect x="193" y="170" width="10" height="22" rx="4" fill="#8b5cf6"/>
+  <rect x="297" y="170" width="10" height="22" rx="4" fill="#8b5cf6"/>
+
+  <!-- Body / Shoulders -->
+  <path d="M 160 340 C 160 260, 200 245, 250 245 C 300 245, 340 260, 340 340 Z" fill="#0f172a" stroke="url(#neonGrad)" stroke-width="2"/>
+
+  <!-- Code elements on the clothing -->
+  <path d="M 230 280 L 215 295 L 230 310" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 270 280 L 285 295 L 270 310" fill="none" stroke="#06b6d4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="255" y1="277" x2="245" y2="313" stroke="#ec4899" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Laptop in front -->
+  <!-- Laptop Screen -->
+  <rect x="150" y="320" width="200" height="120" rx="6" fill="url(#laptopGrad)" stroke="#334155" stroke-width="2"/>
+  <rect x="158" y="328" width="184" height="104" rx="4" fill="#0f172a" stroke="#06b6d4" stroke-width="1"/>
+  
+  <!-- Screen Content: Code lines and graphics -->
+  <rect x="168" y="340" width="80" height="6" rx="2" fill="#8b5cf6" opacity="0.8"/>
+  <rect x="168" y="352" width="120" height="6" rx="2" fill="#06b6d4" opacity="0.8"/>
+  <rect x="168" y="364" width="100" height="6" rx="2" fill="#ec4899" opacity="0.8"/>
+  <rect x="168" y="376" width="60" height="6" rx="2" fill="#3b82f6" opacity="0.8"/>
+  <rect x="168" y="388" width="140" height="6" rx="2" fill="#10b981" opacity="0.8"/>
+  <circle cx="310" cy="355" r="12" fill="none" stroke="#ec4899" stroke-width="2" filter="url(#neonShadow)"/>
+  <path d="M 305 355 L 315 355 M 310 350 L 310 360" stroke="#ec4899" stroke-width="2"/>
+
+  <!-- Laptop Base -->
+  <path d="M 130 440 L 370 440 L 360 452 L 140 452 Z" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <line x1="220" y1="446" x2="280" y2="446" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Glowing dots / Floating symbols -->
+  <circle cx="100" cy="180" r="5" fill="#06b6d4" filter="url(#neonShadow)"/>
+  <circle cx="410" cy="220" r="4" fill="#ec4899" filter="url(#neonShadow)"/>
+  <circle cx="130" cy="270" r="6" fill="#8b5cf6" filter="url(#neonShadow)"/>
+  <circle cx="380" cy="130" r="5" fill="#06b6d4" filter="url(#neonShadow)"/>
+  
+  <!-- Floating CSS & HTML Tags -->
+  <text x="80" y="130" fill="#06b6d4" font-family="monospace" font-size="16" font-weight="bold" opacity="0.6">&lt;div&gt;</text>
+  <text x="370" y="310" fill="#ec4899" font-family="monospace" font-size="16" font-weight="bold" opacity="0.6">{ CSS }</text>
+  <text x="350" y="90" fill="#8b5cf6" font-family="monospace" font-size="20" font-weight="bold" opacity="0.7">JS</text>
+  <text x="100" y="230" fill="#10b981" font-family="monospace" font-size="14" font-weight="bold" opacity="0.6">&lt;/&gt;</text>
+</svg>
