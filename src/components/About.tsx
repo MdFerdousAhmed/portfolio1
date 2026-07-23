@@ -63,7 +63,7 @@ export default function About() {
                   <h4 className="timeline-item-title">Full-Stack MERN Engineer</h4>
                   <div className="timeline-subtitle">Programming Hero</div>
                   <p className="timeline-desc">
-                    MERN Stack is a modern JavaScript technology stack used to build full-stack web applications. It consists of MongoDB for the database, Express.js for the backend framework, React.js for building dynamic user interfaces, and Node.js for the server runtime. Together, these technologies enable developers to create fast, scalable, and responsive applications using JavaScript across both the frontend and backend.
+                    MERN Stack is a modern JavaScript technology stack used to build full-stack web applications. It consists of MongoDB for the database, Express.js for the backend framework, Next.js for building dynamic user interfaces, and Node.js for the server runtime. Together, these technologies enable developers to create fast, scalable, and responsive applications using JavaScript across both the frontend and backend.
                   </p>
                 </div>
               </div>

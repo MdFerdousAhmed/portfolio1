@@ -46,7 +46,7 @@ export default function Contact() {
       <div className="contact-grid">
         {/* Left Column: Direct Info Cards */}
         <div className="contact-info">
-          <a href="mailto:johndev.engineer@email.com" className="glass-panel contact-card">
+          <a href="/" className="glass-panel contact-card">
             <div className="contact-icon-wrap">
               <Mail size={22} />
             </div>
