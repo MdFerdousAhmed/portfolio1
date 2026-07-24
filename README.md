@@ -24,8 +24,9 @@ This portfolio highlights:
 ##  Tech Stack
 
 ### Frontend
-- React.js
 - Next.js
+- React.js
+- TypeScript
 - JavaScript (ES6+)
 - Tailwind CSS
 - HTML5
