@@ -64,7 +64,7 @@ export default function Hero() {
         </p>
 
         <div className="hero-cta">
-          <a href="/ferdous-mern.pdf" download="ferdous-mern.pdf" className="btn-primary">
+          <a href="/Ferdous Resume.pdf" download="Ferdous Resume.pdf" className="btn-primary">
             <Download size={20} />
             <span>Download Resume</span>
           </a>
