@@ -12,7 +12,7 @@ export interface ProjectType {
   githubLink: string;
   challenges: string;
   improvements: string;
-  image: React.ReactNode;
+  image: string;
 }
 
 interface ProjectModalProps {
@@ -67,7 +67,7 @@ export default function ProjectModal({ project, isOpen, onClose }: ProjectModalP
 
         {/* Project Visual Image */}
         <div className="modal-img-wrapper">
-          {project.image}
+          <img src={project.image} alt={project.name} className="modal-img" />
         </div>
 
         {/* Tech Stack */}
